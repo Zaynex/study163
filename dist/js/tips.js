@@ -1,0 +1,1 @@
+!function(){var e=$(".cookie-check"),t=$(".u-remind");e.style.display="none";var n=getCookie();n.tipsHidden||(e.style.display="block",EventUtil.addEvent(t,"click",function(t){var n=EventUtil.getEvent(t);EventUtil.preventDefault(n),e.style.display="none",console.log("OK"),setCookie("tipsHidden",1)}))}();
